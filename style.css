@@ -1,0 +1,89 @@
+:root {
+    --color-primary: #582F0E;
+    --color-light: #B6AD90;
+    --color-secondary: #656D4A;
+}
+
+.font-lora {
+    font-family: 'Lora', serif;
+}
+
+.icon-primary {
+    color: #582F0E;
+}
+
+.quote-background {
+    background-color: #B6AD90;
+}
+
+.card-background {
+    background-color:#e5e5e5;
+}
+
+.btn-primary {
+    background-color: #333D29;
+    color: #e5e5e5;
+    border: none;
+}
+.hero-img{
+    background-image: url(https://images.unsplash.com/photo-1616840388998-a514fe2175b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+    background-position: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}   
+
+.title {
+    font-size: 400%;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    color: #e5e5e5;
+}
+
+.overview{
+    background-color:var(--color-secondary);
+}
+
+.nav-bar-dark {
+    background-color: #936639;
+}
+
+.glass-card {
+    background: rgba(167, 167, 167, 0.4);
+    border: none;
+    backdrop-filter: blur(2px);
+    padding: 10px;
+  }
+
+.text-shadow {
+    text-shadow: 1px 1px 5px #414141;
+}
+
+.card {
+    min-height: 12em;
+}
+
+.sm-card {
+    min-height: 12em;
+}
+
+.text-large {
+    font-size: 200%;
+}
+
+
+.float-down {
+    transform: translateY(8em);
+}
+/* FIXME wrap this whole thing in a media rule */ 
+@media (max-width: 768px) {
+    .float-down {
+        transform: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .media-rule {
+      display: none;
+    }
+  }
